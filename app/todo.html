@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List App</title>
+  <link rel="stylesheet" href="todo.css">
+  <script defer src="todo.js"></script>
+</head>
+<body>
+  <h1 id="a">TO DO LIST</h1>
+  <div class="all">
+  <div class="b" >
+  <form onsubmit="addTask(event)">
+    <input type="text" id="add" placeholder="Add a task for today" />
+    <button type="submit" id="s">Add</button>
+  </form>
+  <p id="list">Tasks to do today:</p>
+  <div id="listinghere"></div>
+</div>
+  <button id ="d" onclick="clearthelist()">clear the list</button>
+</div> 
+</body>
+</html>
